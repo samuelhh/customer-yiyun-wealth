@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/assets/styles/uikit.min.css">
+    <link rel="stylesheet" href="src/assets/styles/styles.min.css">
+    <!-- <script src="/src/assets/js/flexible.js"></script> -->
+    <script src="/src/assets/js/jquery.min.js"></script>
+    <script src="/src/assets/js/uikit.min.js"></script>
+</head>
+
+<body>
+    <section class="index-page-wrap">
+        <div class="index-head">
+            <img src="/src/assets/images/avatar.png" class="avatar">
+            <div class="name">15812345678</div>
+            <div class="grade">一级会员 <a href="" class="link">(我要升级)</a></div>
+            <div class="desc">会员深度：已有2代会员 <a href="" class="link">(请及时升级)</a></div>
+        </div>
+        <div class="index-menu-box">
+            <div class="index i1"></div>
+            <div class="index i2"></div>
+            <div class="index i3"></div>
+            <div class="index i4"></div>
+            <a href="" class="link a1"></a>
+            <a href="" class="link a2"></a>
+            <a href="" class="link a3"></a>
+            <a href="" class="link a4"></a>
+        </div>
+        <h1 class="app-name">
+            亿云财富
+        </h1>
+        <div class="index-share">
+            <a href="">
+                <img src="/src/assets/images/index_share.png" alt="" class="img">
+                <p class="text">分享赚钱</p>
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>

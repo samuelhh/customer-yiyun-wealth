@@ -1,0 +1,119 @@
+//首页
+.index-page-wrap {
+    min-height: 500px;
+    background: #ff65a0 url(../images/bg_index.png) repeat-x 0;
+    .index-head {
+        background: #55304b;
+        min-height: 100px;
+        padding: 40px 0 0 90px;
+        position: relative;
+        .avatar {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            left: 10px;
+            top: 50px;
+        }
+        .name {
+            color: #d8d7d6;
+            margin: 0;
+            font-size: 18px;
+        }
+        .grade {
+            display: inline-block;
+            color: #fbc97b;
+            border-bottom: 2px solid #c8c3c5;
+            margin-bottom: 5px;
+        }
+        .link {
+            color: #dd165b;
+        }
+        .desc {
+            color: #c8c3c5;
+            font-size: 12px;
+        }
+    }
+    .index-menu-box {
+        margin: 20px 0 0;
+        position: relative;
+        width: 100%;
+        height: 100vw;
+        overflow: hidden;
+        .index {
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            &.i1 {
+                opacity: 0.3;
+                width: 80vw;
+                height: 80vw;
+            }
+            &.i2 {
+                opacity: 0.5;
+                width: 56vw;
+                height: 56vw;
+            }
+            &.i3 {
+                opacity: 0.7;
+                width: 36vw;
+                height: 36vw;
+            }
+            &.i4 {
+                opacity: 0.9;
+                width: 25vw;
+                height: 25vw;
+                background: #57334e url(../images/index_logo.png) no-repeat center;
+                background-size: auto 70%
+            }
+        }
+        .link {
+            @for $var from 1 to 5 {
+                &.a#{$var} {
+                    position: absolute;
+                    display: inline-block;
+                    width: 120px;
+                    height: 88px;
+                    background: url(../images/index/index_menu#{$var}.png) no-repeat;
+                    background-size: 100%;
+                }
+            }
+            &.a1 {
+                left: 10vw;
+                top: 10vw;
+            }
+            &.a2 {
+                right: 10vw;
+                top: 10vw;
+            }
+            &.a3 {
+                left: 10vw;
+                bottom: 10vw;
+            }
+            &.a4 {
+                right: 10vw;
+                bottom: 10vw;
+            }
+        }
+    }
+    .app-name {
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .index-share {
+        text-align: center;
+        padding-bottom: 30px;
+        .img {
+            width: 80px;
+        }
+        .text {
+            margin: 5px 0 0;
+            color: #57334e;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
