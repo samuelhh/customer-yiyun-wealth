@@ -1,1 +1,41 @@
 //reset
+body {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+//公共导航
+.common-navbar {
+  background: $navbar-bg;
+  line-height: $navbar-height;
+  height: $navbar-height;
+  color: #fff;
+  padding: 0 $navbar-back-width;
+  .bar-title {
+    text-align: center;
+    font-size: $navba-font-size;
+  }
+  .bar-back {
+    width: $navbar-back-width;
+    height: $navbar-height;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background: url(../images/back.png) no-repeat center;
+    background-size: auto 45%;
+  }
+  &.transparent {
+    background: transparent;
+  }
+}

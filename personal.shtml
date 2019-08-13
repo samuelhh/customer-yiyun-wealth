@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="personal-page-wrap">
+        <div class="common-navbar">
+            <a href="/" class="bar-back"></a>
+            <div class="bar-title">个人资料</div>
+        </div>
+        <ul class="per-list">
+            <li class="border">
+                <label>账号：</label>
+                <input type="text" class="inp" value="隔壁的老王">
+            </li>
+            <li class="border">
+                <label>微信昵称：</label>
+                <input type="text" class="inp" value="落僷随洄①、飘零。">
+            </li>
+            <li class="border">
+                <label>微信号：</label>
+                <input type="text" class="inp" value="wxid548545485">
+            </li>
+            <li class="last">
+                <button class="btn">确认保存</button>
+            </li>
+            <li class="border">
+                <a href="/changePsw.shtml" class="link">
+                    <label>密码管理：</label>
+                    <span class="right">查看<i class="arr"></i></span>
+                </a>
+            </li>
+            <li class="border">
+                <a href="/share.shtml" class="link">
+                    <label>推广链接：</label>
+                    <span class="right">查看<i class="arr"></i></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

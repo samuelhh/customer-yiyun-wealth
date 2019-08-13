@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="login-page-wrap">
+        <div class="login-title">登录</div>
+        <div class="login-logo">
+            <img src="/src/assets/images/logo.png" alt="" class="logo"><br>
+            <img src="src/assets/images/logo_txt.png" alt="" class="txt">
+        </div>
+        <section class="login-form">
+            <ul class="list">
+                <li>
+                    <input type="text" class="inp" placeholder="请输入登录账号">
+                </li>
+                <li>
+                    <input type="password" class="inp" placeholder="请输入登录密码">
+                </li>
+                <li>
+                    <button class="btn">登录</button>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>

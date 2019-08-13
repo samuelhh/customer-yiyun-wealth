@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="share-page-wrap">
+        <div class="common-navbar transparent">
+            <a href="/" class="bar-back"></a>
+            <div class="bar-title">分享赚钱</div>
+        </div>
+        <section class="img-box">
+            <img src="/src/assets/images/share_txt.png" alt="">
+        </section>
+        <section class="ercode-img">
+            <img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_x2_5869f49.png" alt="">
+        </section>
+        <div class="tui-box">
+            <input type="text" value="https://www.baidu.com/" class="inp" readonly>
+            <button class="btn">复制推广</button>
+        </div>
+    </div>
+</body>
+
+</html>

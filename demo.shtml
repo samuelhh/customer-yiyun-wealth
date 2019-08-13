@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="share-page-wrap">
+        <div class="common-navbar">
+            <a href="/personal.shtml" class="bar-back"></a>
+            <div class="bar-title">修改密码</div>
+        </div>
+       
+    </div>
+</body>
+
+</html>

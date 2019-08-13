@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="login-page-wrap">
+        <div class="login-title">注册</div>
+        <div class="login-logo">
+            <img src="/src/assets/images/logo.png" alt="" class="logo"><br>
+            <img src="src/assets/images/logo_txt.png" alt="" class="txt">
+        </div>
+        <section class="login-form">
+            <ul class="list">
+                <li>
+                    <input type="text" class="inp" placeholder="手机号">
+                </li>
+                <li class="special">
+                    <input type="text" class="inp" placeholder="输入验证码">
+                    <button class="get-mobile-code" disabled>获取验证码</button>
+                </li>
+                <li>
+                    <input type="password" class="inp" placeholder="登录密码">
+                </li>
+                <li>
+                    <input type="password" class="inp" placeholder="确认密码">
+                </li>
+                <li>
+                    <input type="text" class="inp red" value="推荐人手机：1568*****18" readonly>
+                </li>
+                <li>
+                    <button class="btn">注册</button>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>

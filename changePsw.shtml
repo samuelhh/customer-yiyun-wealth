@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="changepsw-page-wrap">
+        <div class="common-navbar">
+            <a href="/personal.shtml" class="bar-back"></a>
+            <div class="bar-title">修改密码</div>
+        </div>
+        <ul class="change-list">
+            <li class="bg">
+                <label>原始密码：</label>
+                <input type="password" class="inp" placeholder="输入6-16位原始密码">
+            </li>
+            <li class="bg">
+                <label>新密码：</label>
+                <input type="password" class="inp" placeholder="输入6-16位新密码">
+            </li>
+            <li class="bg">
+                <label>确认密码：</label>
+                <input type="password" class="inp" placeholder="再次输入新密码">
+            </li>
+            <li>
+                <button class="btn">确认修改</button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
