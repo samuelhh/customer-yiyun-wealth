@@ -4,13 +4,17 @@ body {
 }
 
 input,
-button {
+button,
+textarea {
   border: none;
   outline: none;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -41,8 +45,58 @@ li {
   background-size: auto 45%;
 }
 
+.common-navbar .bar-right {
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.common-navbar .bar-right .icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.common-navbar .bar-right .icon.complaint {
+  background: url(../images/complaint.png) no-repeat;
+  background-size: auto 100%;
+}
+
 .common-navbar.transparent {
   background: transparent;
+}
+
+.common-tabs {
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 1px solid #ddd;
+  margin: 0 2vw;
+}
+
+.common-tabs li {
+  text-align: center;
+  flex: 1;
+  -webkit-box-flex: 1;
+  height: 45px;
+}
+
+.common-tabs li a {
+  text-decoration: none;
+  color: #333;
+  line-height: 44px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.common-tabs li a.active {
+  border-bottom: 3px solid #f67385;
+  color: #f67385;
 }
 
 .index-page-wrap {
@@ -320,22 +374,26 @@ li {
 
 .share-page-wrap .tui-box {
   margin: 0 5vw;
+  position: relative;
+  padding-right: 100px;
 }
 
 .share-page-wrap .tui-box .inp {
-  border: none;
-  width: 60vw;
+  width: 90%;
   line-height: 35px;
-  border: 1px solid #ddd;
   padding: 0 0 0 10px;
+  font-size: 14px;
 }
 
 .share-page-wrap .tui-box .btn {
-  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
   line-height: 35px;
   background: #090;
   color: #fff;
-  padding: 0 10px;
+  width: 100px;
+  font-size: 14px;
 }
 
 .personal-page-wrap {
@@ -361,10 +419,11 @@ li {
 }
 
 .personal-page-wrap .per-list li.border .inp {
-  float: left;
   line-height: 43px;
-  width: 98%;
+  height: 43px;
+  width: 99%;
   font-size: 14px;
+  float: left;
 }
 
 .personal-page-wrap .per-list li.border .link {
@@ -455,4 +514,307 @@ li {
   width: 100%;
   border-radius: 6px;
   font-size: 16px;
+}
+
+.complaint-page-wrap {
+  background: #f2f2f2;
+  min-height: 100vh;
+}
+
+.complaint-page-wrap .complaint-list {
+  margin: 5vw 4vw 0;
+}
+
+.complaint-page-wrap .complaint-list li {
+  margin-bottom: 20px;
+}
+
+.complaint-page-wrap .complaint-list li .select {
+  width: 100%;
+  background: #fff;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #f67385;
+  color: #f67385;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.complaint-page-wrap .complaint-list li.bg {
+  border-radius: 6px;
+  background: #fff;
+  padding: 10px;
+}
+
+.complaint-page-wrap .complaint-list li.bg label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.complaint-page-wrap .complaint-list li.bg .area {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+}
+
+.complaint-page-wrap .complaint-list li .btn {
+  color: #fff;
+  background: #f67385;
+  line-height: 45px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.complaint-page-wrap .verify-detail {
+  margin: 30px 2vw 0;
+}
+
+.complaint-page-wrap .verify-detail li.normal {
+  height: 30px;
+  position: relative;
+  padding-left: 80px;
+}
+
+.complaint-page-wrap .verify-detail li.normal label {
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+
+.complaint-page-wrap .verify-detail li.normal .text {
+  color: #000;
+}
+
+.complaint-page-wrap .verify-detail li .area {
+  background: #fff;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.complaint-page-wrap .verify-detail li.last {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.complaint-page-wrap .verify-detail li.last .btn {
+  line-height: 40px;
+  color: #fff;
+  width: 90%;
+  border-radius: 6px;
+}
+
+.complaint-page-wrap .verify-detail li.last .btn.green {
+  background: #009900;
+}
+
+.complaint-page-wrap .verify-detail li.last .btn.red {
+  background: #ff0064;
+}
+
+.record-page-wrap .record-list {
+  margin: 30px 2vw 0;
+}
+
+.record-page-wrap .record-list li {
+  position: relative;
+  border: 1px solid #ededed;
+  padding: 10px 40px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.record-page-wrap .record-list li .title {
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+}
+
+.record-page-wrap .record-list li .desc {
+  color: #888;
+  margin: 5px 0 0;
+}
+
+.record-page-wrap .record-list li .more {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  color: #f67385;
+}
+
+.myteam-page-wrap {
+  background: #f2f2f2;
+  min-height: 100vh;
+}
+
+.myteam-page-wrap .team-head {
+  background: #f67385;
+  display: flex;
+  display: -webkit-flex;
+  padding: 10px 0 30px;
+}
+
+.myteam-page-wrap .team-head li {
+  flex: 1;
+  -webkit-box-flex: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.myteam-page-wrap .team-head li .num {
+  font-size: 24px;
+}
+
+.myteam-page-wrap .team-head li .txt {
+  font-size: 14px;
+}
+
+.myteam-page-wrap .team-head li:first-child {
+  position: relative;
+}
+
+.myteam-page-wrap .team-head li:first-child::after {
+  content: "";
+  border-right: 1px solid #fff;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 35%;
+}
+
+.myteam-page-wrap .team-list {
+  margin: 0;
+}
+
+.myteam-page-wrap .team-list dt {
+  text-indent: 10px;
+  padding: 10px 0;
+}
+
+.myteam-page-wrap .team-list dd {
+  background: #fff;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+
+.myteam-page-wrap .team-list dd .tit {
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.myteam-page-wrap .team-list dd .lv {
+  color: #666;
+}
+
+.myteam-page-wrap .team-list dd .time {
+  color: #888;
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.upgrade-page-wrap .upgrade-head {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.upgrade-page-wrap .upgrade-head .tit {
+  font-size: 18px;
+}
+
+.upgrade-page-wrap .upgrade-head .tit.t1 {
+  color: #f67385;
+}
+
+.upgrade-page-wrap .upgrade-head .tit.t2 {
+  color: #000;
+  margin-top: 10px;
+}
+
+.upgrade-page-wrap .upgrade-head .up {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: url(../images/up.png) no-repeat center;
+  background-size: 100%;
+}
+
+.upgrade-page-wrap .upgrade-body {
+  margin: 0 5vw;
+}
+
+.upgrade-page-wrap .upgrade-body .inner {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px 15px 0;
+  margin-bottom: 20px;
+}
+
+.upgrade-page-wrap .upgrade-body .tips {
+  color: #f67385;
+  font-size: 14px;
+}
+
+.upgrade-page-wrap .upgrade-body .uk-form-custom {
+  display: block;
+}
+
+.upgrade-page-wrap .upgrade-body .uk-button-default {
+  background: #f67385;
+  color: #fff;
+  border: none;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.calssroom-page-wrap .class-list {
+  margin: 20px 5vw 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.calssroom-page-wrap .class-list li {
+  height: 45px;
+  line-height: 45px;
+}
+
+.calssroom-page-wrap .class-list li .link {
+  display: block;
+  text-decoration: none;
+}
+
+.calssroom-page-wrap .class-list li .name {
+  font-size: 16px;
+  float: left;
+}
+
+.calssroom-page-wrap .class-list li .view {
+  float: right;
+}
+
+.calssroom-page-wrap .class-list li .view .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+}
+
+.calssroom-page-wrap .class-list.green {
+  border: 1px solid #009900;
+}
+
+.calssroom-page-wrap .class-list.green li {
+  border-bottom: 1px solid #009900;
+}
+
+.calssroom-page-wrap .class-list.green li:last-child {
+  border: none;
+}
+
+.calssroom-page-wrap .class-list.green li .link {
+  color: #009900;
 }

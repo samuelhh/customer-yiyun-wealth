@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="record-page-wrap">
+        <div class="common-navbar">
+            <a href="/" class="bar-back"></a>
+            <div class="bar-title">升级单记录</div>
+            <a href="/complaint.shtml" class="bar-right"><i class="icon complaint"></i> 投诉</a>
+        </div>
+        <ul class="common-tabs">
+            <li>
+                <a href="" class="active">升级单记录</a>
+            </li>
+            <li>
+                <a href="">审核配单记录</a>
+            </li>
+        </ul>
+        <ul class="record-list">
+            <li>
+                <p class="title">asdfasd-58445</p>
+                <p class="desc">2019-08-13 21:00</p>
+                <a href="/verify_detail.shtml" class="more">详情</a>
+            </li>
+            <li>
+                <p class="title">asdfasd-58445</p>
+                <p class="desc">2019-08-13 21:00</p>
+                <a href="/verify_detail.shtml" class="more">详情</a>
+            </li>
+            <li>
+                <p class="title">3534454</p>
+                <p class="desc">2019-08-13 21:00</p>
+                <a href="/verify_detail.shtml" class="more">详情</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -3,26 +3,26 @@
 <!--#include virtual="/components/common/head.shtml" -->
 
 <body>
-    <div class="changepsw-page-wrap">
+    <div class="complaint-page-wrap">
         <div class="common-navbar">
-            <a href="/personal.shtml" class="bar-back"></a>
-            <div class="bar-title">修改密码</div>
+            <a href="/record_upgrade.shtml" class="bar-back"></a>
+            <div class="bar-title">投诉中心</div>
         </div>
-        <ul class="change-list">
-            <li class="bg">
-                <label>原始密码：</label>
-                <input type="password" class="inp" placeholder="输入6-16位原始密码">
-            </li>
-            <li class="bg">
-                <label>新密码：</label>
-                <input type="password" class="inp" placeholder="输入6-16位新密码">
-            </li>
-            <li class="bg">
-                <label>确认密码：</label>
-                <input type="password" class="inp" placeholder="再次输入新密码">
-            </li>
+        <ul class="complaint-list">
             <li>
-                <button class="btn">确认修改</button>
+                <label>选择投诉类型：</label><br>
+                <select class="select">
+                    <option>未收到打款</option>
+                    <option>已打款，未通过</option>
+                </select>
+            </li>
+            <li class="bg">
+                <label>问题描述：</label><br>
+                <textarea class="area" placeholder="清晰说明问题，客服会及时处理" rows="8"></textarea>
+            </li>
+
+            <li>
+                <button class="btn">确认投诉</button>
             </li>
         </ul>
     </div>

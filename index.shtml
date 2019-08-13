@@ -9,8 +9,8 @@
                 <img src="/src/assets/images/avatar.png" class="avatar">
             </a>
             <div class="name">15812345678</div>
-            <div class="grade">一级会员 <a href="" class="link">(我要升级)</a></div>
-            <div class="desc">会员深度：已有2代会员 <a href="" class="link">(请及时升级)</a></div>
+            <div class="grade">一级会员 <a href="/upgrade.shtml" class="link">(我要升级)</a></div>
+            <div class="desc">会员深度：已有2代会员 <a href="/upgrade.shtml" class="link">(请及时升级)</a></div>
         </div>
         <div class="index-menu-box">
             <div class="index i1"></div>
@@ -18,9 +18,9 @@
             <div class="index i3"></div>
             <div class="index i4"></div>
             <a href="/personal.shtml" class="link a1"></a>
-            <a href="" class="link a2"></a>
-            <a href="" class="link a3"></a>
-            <a href="" class="link a4"></a>
+            <a href="/record_upgrade.shtml" class="link a2"></a>
+            <a href="/my_team.shtml" class="link a3"></a>
+            <a href="/classroom.shtml" class="link a4"></a>
         </div>
         <h1 class="app-name">
             亿云财富

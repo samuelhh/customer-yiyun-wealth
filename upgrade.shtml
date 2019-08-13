@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="upgrade-page-wrap">
+        <div class="common-navbar">
+            <a href="/" class="bar-back"></a>
+            <div class="bar-title">我要升级</div>
+        </div>
+        <section class="upgrade-head">
+            <h3 class="tit t1">申请级别：二级会员</h3>
+            <div>
+                <span class="up"></span>
+            </div>
+            <h3 class="tit t2">当前级别：一级会员</h3>
+        </section>
+        <section class="upgrade-body">
+            <div class="inner">
+                <h3 class="title">匹配详情</h3>
+                <ul class="list">
+                    <li>微信昵称：隔壁的老王</li>
+                    <li>微信号：了氪金氪金氪</li>
+                    <li>升级金额：150元</li>
+                </ul>
+                <p class="tips">
+                    温馨提示：加微信好友，发红包或转账后截图上传
+                </p>
+            </div>
+            <div class="js-upload" uk-form-custom>
+                <input type="file" multiple>
+                <button class="uk-button uk-button-default" type="button" tabindex="-1">上传截图</button>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="complaint-page-wrap">
+        <div class="common-navbar">
+            <a href="/record_upgrade.shtml" class="bar-back"></a>
+            <div class="bar-title">审核详情</div>
+        </div>
+        <ul class="verify-detail">
+            <li class="normal">
+                <label>账号：</label>
+                <span class="text">隔壁的老王</span>
+            </li>
+            <li class="normal">
+                <label>微信昵称：</label>
+                <span class="text">氪金氪金氪@</span>
+            </li>
+            <li class="normal">
+                <label>微信号：</label>
+                <span class="text">wx-545454533</span>
+            </li>
+            <li class="normal">
+                <label>申请级别：</label>
+                <span class="text">3级</span>
+            </li>
+            <li>
+                <textarea class="area" rows="15" placeholder="想说点啥呢~"></textarea>
+            </li>
+            <li class="last uk-clearfix">
+                <div uk-grid>
+                    <div class="uk-width-1-2">
+                        <button class="btn green">已收款：通过</button>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <button class="btn red">未收款：拒绝</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

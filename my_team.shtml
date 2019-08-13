@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="myteam-page-wrap">
+        <div class="common-navbar">
+            <a href="/" class="bar-back"></a>
+            <div class="bar-title">我的团队</div>
+        </div>
+        <ul class="team-head">
+            <li>
+                <b class="num">7</b><br>
+                <span class="txt">团队人数</span>
+            </li>
+            <li>
+                <b class="num">1530</b><br>
+                <span class="txt">业绩（元）</span>
+            </li>
+        </ul>
+        <dl class="team-list">
+            <dt>一代推荐</dt>
+            <dd>
+                <span class="tit">1587*****66</span>
+                <span class="lv">(一级会员)</span>
+                <p class="time">注册时间：2019-08-19 12:00:16</p>
+            </dd>
+            <dd>
+                <span class="tit">1587*****66</span>
+                <span class="lv">(二级会员)</span>
+                <p class="time">注册时间：2019-08-19 12:00:16</p>
+            </dd>
+        </dl>
+        <dl class="team-list">
+            <dt>二代推荐</dt>
+            <dd>
+                <span class="tit">1587*****66</span>
+                <span class="lv">(三级会员)</span>
+                <p class="time">注册时间：2019-08-19 12:00:16</p>
+            </dd>
+            <dd>
+                <span class="tit">1587*****66</span>
+                <span class="lv">(四级会员)</span>
+                <p class="time">注册时间：2019-08-19 12:00:16</p>
+            </dd>
+        </dl>
+    </div>
+</body>
+
+</html>
