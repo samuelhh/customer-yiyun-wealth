@@ -780,6 +780,7 @@ li {
 .calssroom-page-wrap .class-list li {
   height: 45px;
   line-height: 45px;
+  overflow: hidden;
 }
 
 .calssroom-page-wrap .class-list li .link {
@@ -798,13 +799,28 @@ li {
 
 .calssroom-page-wrap .class-list li .view .icon {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ddd;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.calssroom-page-wrap .class-list li .view .icon::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px;
+  z-index: 2;
+  position: absolute;
+  left: 38%;
+  top: 20%;
 }
 
 .calssroom-page-wrap .class-list.green {
   border: 1px solid #009900;
+  background: #91e399;
 }
 
 .calssroom-page-wrap .class-list.green li {
@@ -817,4 +833,73 @@ li {
 
 .calssroom-page-wrap .class-list.green li .link {
   color: #009900;
+}
+
+.calssroom-page-wrap .class-list.green li .view .icon {
+  border: 1px solid #009900;
+}
+
+.calssroom-page-wrap .class-list.green li .view .icon::after {
+  border-color: transparent transparent transparent #009900;
+}
+
+.calssroom-page-wrap .class-list.blue {
+  border: 1px solid #297aff;
+  background: #addeff;
+}
+
+.calssroom-page-wrap .class-list.blue li {
+  border-bottom: 1px solid #297aff;
+}
+
+.calssroom-page-wrap .class-list.blue li:last-child {
+  border: none;
+}
+
+.calssroom-page-wrap .class-list.blue li .link {
+  color: #297aff;
+}
+
+.calssroom-page-wrap .class-list.blue li .view .icon {
+  border: 1px solid #297aff;
+}
+
+.calssroom-page-wrap .class-list.blue li .view .icon::after {
+  border-color: transparent transparent transparent #297aff;
+}
+
+.calssroom-page-wrap .class-list.orange {
+  border: 1px solid #ff7000;
+  background: #ffdcda;
+}
+
+.calssroom-page-wrap .class-list.orange li {
+  border-bottom: 1px solid #ff7000;
+}
+
+.calssroom-page-wrap .class-list.orange li:last-child {
+  border: none;
+}
+
+.calssroom-page-wrap .class-list.orange li .link {
+  color: #ff7000;
+}
+
+.calssroom-page-wrap .class-list.orange li .view .icon {
+  border: 1px solid #ff7000;
+}
+
+.calssroom-page-wrap .class-list.orange li .view .icon::after {
+  border-color: transparent transparent transparent #ff7000;
+}
+
+.calssroom-page-wrap .video-info {
+  background: #fff;
+  padding: 20px;
+  margin: 2vw 2vw 0;
+}
+
+.calssroom-page-wrap.bg-color {
+  background: #f2f2f2;
+  min-height: 100vh;
 }

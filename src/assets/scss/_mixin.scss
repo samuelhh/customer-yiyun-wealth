@@ -1,0 +1,22 @@
+//视频列表混合
+@mixin video-list($color, $bg) {
+  border: 1px solid $color;
+  background: $bg;
+  li {
+    border-bottom: 1px solid $color;
+    &:last-child {
+      border: none;
+    }
+    .link {
+      color: $color;
+    }
+    .view {
+      .icon {
+        border: 1px solid $color;
+        &::after {
+          border-color: transparent transparent transparent $color;
+        }
+      }
+    }
+  }
+}

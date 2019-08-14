@@ -5,25 +5,65 @@
 <body>
     <div class="calssroom-page-wrap">
         <div class="common-navbar">
-            <a href="/personal.shtml" class="bar-back"></a>
+            <a href="/" class="bar-back"></a>
             <div class="bar-title">亿云课堂</div>
         </div>
         <ul class="class-list green">
             <li>
-                <a href="" class="link">
+                <a href="/room_detail.shtml" class="link">
                     <div class="name">亿云课堂一</div>
                     <div class="view">查看 <i class="icon"></i></div>
                 </a>
             </li>
             <li>
-                <a href="" class="link">
+                <a href="/room_detail.shtml" class="link">
                     <div class="name">亿云课堂二</div>
                     <div class="view">查看 <i class="icon"></i></div>
                 </a>
             </li>
             <li>
-                <a href="" class="link">
+                <a href="/room_detail.shtml" class="link">
                     <div class="name">亿云课堂三</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+        </ul>
+        <ul class="class-list blue">
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂四</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂五</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂六</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+        </ul>
+        <ul class="class-list orange">
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂七</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂八</div>
+                    <div class="view">查看 <i class="icon"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="/room_detail.shtml" class="link">
+                    <div class="name">亿云课堂九</div>
                     <div class="view">查看 <i class="icon"></i></div>
                 </a>
             </li>

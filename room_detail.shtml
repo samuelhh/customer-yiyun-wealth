@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#include virtual="/components/common/head.shtml" -->
+
+<body>
+    <div class="calssroom-page-wrap bg-color">
+        <div class="common-navbar">
+            <a href="/classroom.shtml" class="bar-back"></a>
+            <div class="bar-title">亿云课堂一</div>
+        </div>
+        <div>
+            <video src="https://v1.huanqiucdn.cn/db436c3avodtransgzp1253159997/24a405e65285890792796728775/v.f20.mp4"
+                controls="controls"></video>
+        </div>
+        <div class="video-info">
+            <p>　　【环球网科技综合报道】高通公司日前宣布，任命马克·麦克劳克林(Mark McLaughlin)为董事长，接替自2018年3月以来一直担任该职位的杰夫·亨德森(Jeff
+                Henderson)，该任命从2019年8月13日起生效。据悉，曾任卡地纳健康集团(Cardinal Health)首席财务官的杰夫·亨德森将留在高通董事会，并继续担任审计委员会主席。</p>
+
+            <p style="text-align: center;"><img alt=""
+                    src="http://himg2.huanqiu.com/attachment2010/2019/0814/09/42/20190814094252142.jpg"></p>
+            <p>　　曾任派拓网络(Palo Alto
+                Networks)董事长兼首席执行官的麦克劳克林指出：“杰夫在一段前所未有的挑战时期担任了董事会的领导，成为我们的首位独立董事长，指导董事会通过公司的努力解决重大业务问题。董事会非常感谢杰夫在这段过渡时期所做的一切。”
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
